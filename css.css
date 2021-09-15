@@ -1,0 +1,228 @@
+*{
+    box-sizing:border-box
+}
+body,html{
+    height:100%;
+    margin:0;
+    font:400 15px/1.8 Lato,sans-serif;
+    color:#777;
+    scroll-behavior:smooth
+}
+ .bgimg-1,.bgimg-2,.bgimg-3{
+    position:relative;
+    opacity:100%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover
+}
+ .bgimg-1{
+    background-image:url(technews.jpg);
+    min-height:400px
+}
+ .bgimg-2{
+    background-image:url(tech.jpg);
+    min-height:400px
+}
+ .bgimg-3{
+    background-image:url(logo.png);
+    min-height:400px
+}
+ .caption{
+    position:absolute;
+    left:0;
+    top:10%;
+    width:100%;
+    text-align:center;
+    color:#000
+}
+ .caption span.border{
+    background-color:#111;
+    color:#fff;
+    padding:18px;
+    font-size:25px;
+    letter-spacing:10px
+}
+h3{
+    letter-spacing:5px;
+    text-transform:uppercase;
+    font:20px Lato, sans-serif;
+    color:#111
+}
+ #the-footer{
+    clear:both;
+    text-align:center;
+    padding:20px;
+    border-top:2px solid
+}
+ .header{
+    padding:100px;
+    text-align:center;
+    background-image:url("Screenshot 2020-10-09 091611.png");
+    color:#fff
+}
+ .header h1{
+    font-size:40px
+}
+ .navbar{
+    overflow:hidden;
+    background:black
+}
+ .navbar a{
+    float:left;
+    display:block;
+    color:#fff;
+    text-align:center;
+    padding:20px 20px;
+    text-decoration:none
+}
+ .navbar a.right{
+    float:right
+}
+ .navbar a:hover{
+    background-color:#4171ff;
+    color:#a3e2f0
+}
+: :-webkit-scrollbar{
+    width:12px
+}
+::-webkit-scrollbar-track{
+    box-shadow:inset 0 0 5px grey;
+    border-radius:10px
+}
+::-webkit-scrollbar-thumb{
+    background:#0ff;
+    border-radius:10px
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#00f
+}
+article{
+    background:#fff;
+    border:10px solid #000;
+    padding:20px;
+    margin-bottom:15px
+}
+article footer{
+    text-align:right
+}
+.slideshow-container{
+    max-width:500px;
+    position:relative;
+    margin:auto
+}
+.text{
+    color:#f2f2f2;
+    font-size:15px;
+    padding:8px 12px;
+    position:absolute;
+    bottom:25px;
+    width:100%;
+    text-align:center
+}
+.numbertext{
+    color:#f2f2f2;
+    font-size:12px;
+    padding:8px 12px;
+    position:absolute;
+    top:0
+}
+.dot{
+    height:15px;
+    width:15px;
+    margin:0 2px;
+    background-color:#bbb;
+    border-radius:50%;
+    display:inline-block;
+    transition:background-color 0.6s ease
+}
+.active{
+    background-color:#717171
+}
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name:fade;
+    animation-duration:1.5s
+}
+@-webkit-keyframes fade{
+    from{
+        opacity: .4
+    }
+    to{
+        opacity:1
+    }
+}
+@keyframes fade{
+    from{
+        opacity: .4
+    }
+    to{
+        opacity:1
+    }
+}
+@media only screen and (max-width: 300px){
+    .text{
+        font-size:11px
+    }
+}
+.column{
+    float:left;
+    width:25%;
+    padding:15px 10px
+}
+.row{
+    margin:0 -5px
+}
+.row:after{
+    content:"";
+    display:table;
+    clear:both
+}
+@media screen and (max-width: 600px){
+    .column{
+        width:100%;
+        display:block;
+        margin-bottom:20px
+    }
+}
+.card{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:16px;
+    text-align:center;
+    background-color:#f1f1f1
+}
+.card:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,2)
+}
+.container{
+    padding:2px 16px
+}
+.button{
+    background-color:#789;
+    text-align:center;
+    border:0;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer
+}
+.button:hover{
+    background-color:rgba(0, 0, 0, 0.8)
+}
+.mal{
+    color: #777;
+    background-color:snow white;
+    text-align: justify;
+    padding:20px 30px
+}
+ .rol{
+    color: #777;
+    background-color:snow-white;
+    text-align: justify;
+    padding:20px 30px
+}
