@@ -1,0 +1,4 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^manaschoudhary.ml$
+RewriteRule ^(.*)$ https://manaschoudhary.ml/$1 [R=301,L]
