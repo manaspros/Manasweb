@@ -17,15 +17,15 @@ body,html{
     background-size:cover
 }
  .bgimg-1{
-    background-image:url(technews.jpg);
+    background-image:url(https://manaspros.github.io/Manasweb/technews.jpg);
     min-height:400px
 }
  .bgimg-2{
-    background-image:url(tech.jpg);
+    background-image:url(https://manaspros.github.io/Manasweb/tech.jpg);
     min-height:400px
 }
  .bgimg-3{
-    background-image:url(logo.png);
+    background-image:url(https://manaspros.github.io/Manasweb/logo.png);
     min-height:400px
 }
  .caption{
@@ -58,7 +58,7 @@ h3{
  .header{
     padding:100px;
     text-align:center;
-    background-image:url("Screenshot 2020-10-09 091611.png");
+    background-image:url("https://manaspros.github.io/Manasweb/Screenshot 2020-10-09 091611.png");
     color:#fff
 }
  .header h1{
